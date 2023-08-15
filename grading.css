@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(img/pexels-anni-roenkae-2317710.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.grading{
+    background-color: transparent;
+     color: rgb(214, 190, 190);
+     margin-left: 100px;
+     margin-top: 30px;
+     font-weight:bold;
+     font-size: 25px;
+    
+}
+.main{
+    border:1px solid rgb(214, 160, 160);
+    height: 300px;
+    width: 400px;
+    box-shadow: 5px 5px 25px  rgb(82, 79, 79);
+    border-radius: 20px;
+    backdrop-filter: blur(25px);
+}
+#userScore{
+    margin-left: 45px;
+    margin-top: 70px;
+    height: 50px;
+    width: 250px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: white;
+    padding:7px;
+    border: 2px solid white;
+    outline: none;
+    position: relative;
+}
+button{
+    height: 50px;
+    width: 70px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    outline: none;
+    border: 2px solid rgb(95, 4, 4);
+    background-color: red;
+    color:white;
+    position: relative;
+    left: -4px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(103, 221, 103);
+    border: 0px solid rgb(4, 99, 4);
+    transition: 1s;
+    cursor: pointer;
+}
+#text{
+    border: 1px solid rgb(206, 203, 203);
+    height: 40px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+    align-content: center;
+    padding: 7px;
+    font-size: larger;
+
+}
+#border{
+    border: none;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: -10px;
+}
+
+.class_of_timi {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.marq {
+    color: #fff;
+}
